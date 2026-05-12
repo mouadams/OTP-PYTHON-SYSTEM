@@ -1,0 +1,31 @@
+# Full requirements — install with: pip install -r requirements.txt
+
+# Web framework
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+
+# Database
+sqlalchemy>=2.0.0
+pymysql>=1.1.0
+
+# Auth
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+
+# Settings & validation
+pydantic-settings>=2.0.0
+pydantic[email]>=2.0.0
+python-dotenv>=1.0.0
+email-validator>=2.0.0
+
+# Email (stdlib smtplib used — no extra package needed)
+
+# Frontend
+streamlit>=1.35.0
+requests>=2.31.0
+
+# Testing (optional)
+pytest>=7.4.0
+
+# Scheduler (optional — for periodic OTP cleanup)
+# apscheduler>=3.10.0
