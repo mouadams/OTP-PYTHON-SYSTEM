@@ -19,7 +19,7 @@ class Settings(BaseSettings):
     SMTP_HOST: str = "smtp.gmail.com"
     SMTP_PORT: int = 587
     SMTP_USER: str = "mouadtahiri1000@gmail.com"
-    SMTP_PASSWORD: str = "password-for-gmail-app"          # set in .env
+    SMTP_PASSWORD: str = "oelq ckvq gfsr weqs"          # set in .env
     EMAIL_FROM_NAME: str = "OTP System"
 
     model_config = SettingsConfigDict(
